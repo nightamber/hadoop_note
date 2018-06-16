@@ -1,0 +1,7 @@
+yum -y install pcre-devel openssl openssl-devel
+
+./configure --prefix=/usr/local/nginx
+
+make
+
+make install
